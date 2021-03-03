@@ -1,0 +1,40 @@
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    background: rgba(255,255,255, 0.6);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+p {
+    text-align: center;
+    background: rgba(255,255,255, 0.6)
+}
+
+.main {
+    height: 200px;
+}
+
+button {
+    margin-left: 45%;
+    
+}
+
+.the-choice {
+    text-align: center;
+    margin-top: 25px;
+    background: rgba(255,255,255, 0.6);
+    font-size: 40px;
+}
+
+@media only screen and (min-width: 414px) {
+    button {
+        margin-left: 35%;
+        
+    }
+    body {
+        background-image: url("./images/mobile.jpg");
+    }
+  }
